@@ -1,0 +1,12 @@
+# Never commit local secrets
+*.env
+.env*
+secrets*
+*token*
+*secret*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
