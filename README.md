@@ -8,7 +8,7 @@ A production-oriented OpenClaw skill for literature retrieval and scheduled deli
 
 ### 1. Skill 是做什么的
 
-`Literature (wenxian)` 用于把“文献检索 → 筛选评估 → 结构化报告 → 定时推送”固化为稳定流程，适合 MDRGNB、HCC 等固定主题的长期追踪。
+`Literature (wenxian)` 用于把“文献检索 → 筛选评估 → 结构化报告 → 定时推送”固化为稳定流程，适合固定主题的长期追踪。
 
 它不是一次性 prompt，而是可持续运行的自动化任务能力：
 - 日报：每天增量检索 + 输出
@@ -152,7 +152,7 @@ Literature/
 `Literature (wenxian)` turns literature operations into a stable workflow:
 **retrieve → rank/review → structured report → scheduled delivery**.
 
-It is designed for recurring topics (e.g., MDRGNB, HCC), not one-off prompts.
+It is designed for recurring topics, not one-off prompts.
 
 - Daily: incremental retrieval + reporting
 - Weekly: summarize from last 7 daily archives
